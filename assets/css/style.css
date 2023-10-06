@@ -1688,7 +1688,13 @@ footer {
   }
 }
 @media (max-width: 578px) {
-  .toys {
+  .toys .new {
+    display: none;
+  }
+  .toys .whats_new {
+    display: none;
+  }
+  .toys .toy {
     display: none;
   }
 }
