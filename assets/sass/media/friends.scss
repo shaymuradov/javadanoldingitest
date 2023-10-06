@@ -1,0 +1,94 @@
+@media (max-width:1287px) {
+    .friends{
+        .wrap{
+            .left{
+                order: 1;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            border-radius: 0;
+            }
+            .right{
+                order: 2;
+            }
+        }
+    }
+}
+
+@media (max-width:449px) {
+    .friends{
+        .wrap{
+            .left{
+                order: 1;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            border-radius: 0;
+            h1{
+                padding: 0;
+                font-size: 18;
+            }
+            h2{
+                padding: 0;
+                font-size: 18px;
+            }
+            p{
+                font-size: 10px;
+            }
+            }
+            .right{
+                order: 2;
+            }
+            .wrap_button{
+                gap: 10px;
+            }
+        }
+    }
+}
+@media (max-width:371px) {
+    .friends{
+        .wrap{
+            .left{
+                order: 1;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            flex-direction: column;
+            padding: 0;
+            border-radius: 0;
+            h1{
+                padding: 0;
+                font-size: 18;
+            }
+            h2{
+                padding: 0;
+                font-size: 18px;
+            }
+            p{
+                font-size: 10px;
+            }
+            }
+            .right{
+                order: 2;
+            }
+            .wrap_button{
+                gap: 10px;
+                .btn1{
+                    font-size: 10px;
+                    padding: 6px 10px 6px 6px;
+                }
+                .btn2{
+                    font-size: 10px;
+                    padding: 6px 18px 6px 6px;
+                }
+            }
+        }
+    }
+}

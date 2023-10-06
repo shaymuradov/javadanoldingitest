@@ -1,0 +1,15 @@
+.friends {
+  border-radius: 20px;
+  background: #003459;
+  margin: 30px 0;
+  .left {
+    background: #FCEED5;
+    padding: 0 50px;
+    border-radius: 50px 0 0 50px;
+  }
+  .right{
+    img{
+        height: 100%;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.reklama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 20px 0;
+}
+.anons {
+  padding: 30px 0;
+}
+.anons2 {
+  .wrap {
+    border-radius: 20px;
+    background: #ffb775;
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,47 @@
+.dog_food {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px 0;
+  .grid {
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+    img {
+      width: 100%;
+      border-radius: 12px;
+    }
+    p {
+      border-radius: 28px;
+      background: var(--state-color-blue-sea, #00a7e7);
+      color: var(--neutral-color-00, #fdfdfd);
+      font-family: SVN-Gilroy;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 16px;
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 10px 0;
+    }
+    h1 {
+      color: var(--neutral-color-100, #00171f);
+      font-family: SVN-Gilroy;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+      padding: 10px 0;
+    }
+    h2 {
+      overflow: hidden;
+      color: var(--neutral-color-80, #242b33);
+      text-overflow: ellipsis;
+      font-family: SVN-Gilroy;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 20px;
+    }
+  }
+}

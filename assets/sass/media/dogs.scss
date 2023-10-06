@@ -1,0 +1,471 @@
+@media (max-width:949px){
+    .pets{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+}
+@media (max-width:603px){
+    .whats_new {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+          color: var(--primary-color-dark-blue, #003459);
+          font-family: SVN-Gilroy;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 36px;
+          text-transform: capitalize;
+        }
+      }
+      .new {
+        p {
+          color: #000;
+          font-family: SVN-Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        margin-top: 30px;
+      }
+      
+}
+@media (max-width:510px){
+    .pets2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 5px 0 2px 0;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+}
+@media (max-width:468px){
+    .whats_new {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+          color: var(--primary-color-dark-blue, #003459);
+          font-family: SVN-Gilroy;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 36px;
+          text-transform: capitalize;
+        }
+      }
+      .new {
+        p {
+          color: #000;
+          font-family: SVN-Gilroy;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        margin-top: 20px;
+      }
+      
+}
+@media (max-width:427px){
+    .pets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 5px 0 2px 0;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .pets2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 5px 0 2px 0;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 10px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 14px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+}
+@media (max-width:331px){
+    .whats_new {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1 {
+          color: var(--primary-color-dark-blue, #003459);
+          font-family: SVN-Gilroy;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 36px;
+          text-transform: capitalize;
+        }
+        button {
+            border-radius: 57px;
+            border: 1.5px solid var(--primary-color-dark-blue, #003459);
+            padding: 8px 10px;
+            color: var(--primary-color-dark-blue, #003459);
+            font-family: SVN-Gilroy;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #fff;
+          }
+      }
+      .new {
+        p {
+          color: #000;
+          font-family: SVN-Gilroy;
+          font-size: 8px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 24px;
+        }
+        margin-top: 20px;
+      } 
+}
+@media (max-width:382px){
+    .pets {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 5px 0 2px 0;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 10px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .pets2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 12px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 5px 0 2px 0;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 8px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 10px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+}
+
+@media (max-width:329px){
+    .pets {
+        gap: 4px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 8px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+              width: 100%;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 0;
+              width: 100%;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 6px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 8px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      
+      .pets2 {
+        gap: 4px;
+        .dog {
+          border-radius: 12px;
+          background: var(--neutral-color-00, #fdfdfd);
+          box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+          padding: 8px 8px 0px 8px;
+          .dog_img {
+            img {
+              width: 100%;
+              border-radius: 12px;
+            }
+          }
+          .dog_text {
+            padding: 8px 8px 20px 8px;
+            h1 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 8px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 24px;
+              width: 100%;
+            }
+            p {
+              display: flex;
+              align-items: center;
+              justify-content: start;
+              gap: 6px;
+              padding: 0;
+              width: 100%;
+              span {
+                color: var(--neutral-color-60, #667479);
+                font-family: SVN-Gilroy;
+                font-size: 6px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 18px;
+              }
+            }
+            h2 {
+              color: var(--neutral-color-100, #00171f);
+              font-family: SVN-Gilroy;
+              font-size: 8px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 20px;
+            }
+          }
+        }
+    }  
+}
